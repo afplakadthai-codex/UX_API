@@ -1,12 +1,28 @@
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
+import type { ReactElement } from 'react';
 
-import { AccountScreen } from '../screens/AccountScreen';
-import { CartScreen } from '../screens/CartScreen';
 import { HomeScreen } from '../screens/HomeScreen';
-import { ListingDetailScreen } from '../screens/ListingDetailScreen';
-import { OffersScreen } from '../screens/OffersScreen';
-import { ProfileScreen } from '../screens/ProfileScreen';
+
+function ListingDetailScreen(): ReactElement | null {
+  return null;
+}
+
+function AccountScreen(): ReactElement | null {
+  return null;
+}
+
+function CartScreen(): ReactElement | null {
+  return null;
+}
+
+function OffersScreen(): ReactElement | null {
+  return null;
+}
+
+function ProfileScreen(): ReactElement | null {
+  return null;
+}
 
 export type HomeStackParamList = {
   Home: undefined;
